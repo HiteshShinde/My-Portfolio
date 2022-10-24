@@ -100,11 +100,10 @@ a {
 /* Header Content */
 #header {
     background: #0A192F;
-    height: 100vh;
 }
 
 #header .header-content {
-    padding-top: 20%;
+    padding: 200px 0;
     max-width: 850px;
     margin: auto;
 }
@@ -360,6 +359,26 @@ a {
 
 
 @media (max-width: 500px) {
+
+    #navbar {
+        background: #0A192F;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+    }
+
+    #logo {
+        padding: 10px;
+    }
+
+    #logo a {
+        font-size: 30px;
+        border-bottom: 3px transparent solid;
+        padding-bottom: 10px;
+        transition: border-color 0.5s;
+    }
+
     #navbar .nav a {
         font-size: 16px;
         padding: 10px;
