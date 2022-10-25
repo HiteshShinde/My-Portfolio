@@ -39,6 +39,15 @@ a {
     color: #0A192F;
 }
 
+.btn-2 {
+    background: teal;
+}
+
+.btn-2:hover {
+    background: #0A192F;
+    color: #fff;
+}
+
 .heading {
     font-size: 50px;
     color: #0A192F;
@@ -61,7 +70,7 @@ a {
 }
 
 #logo {
-    padding: 20px;
+    padding-bottom: 10px;
 }
 
 #logo a {
@@ -87,7 +96,6 @@ a {
 
 #navbar .nav a {
     font-size: 20px;
-    padding: 20px;
     border-bottom: 3px transparent solid;
     padding-bottom: 10px;
     transition: border-color 0.5s;
@@ -95,6 +103,10 @@ a {
 
 #navbar .nav a:hover {
     border-color: teal;
+}
+
+#navbar .container button {
+    height: 100%;
 }
 
 /* Header Content */
