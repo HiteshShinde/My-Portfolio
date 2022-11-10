@@ -41,6 +41,7 @@ a {
 
 .btn-2 {
     background: teal;
+    transition: all 0.5s ease;
 }
 
 .btn-2:hover {
@@ -266,8 +267,13 @@ a {
     padding: 20px;
 }
 
+#footer .social li a {
+    transition: all 0.5s ease;
+}
+
 #footer .social li a:hover {
     color: teal;
+    transform: scale(0.97);
 }
 
 #footer .container p{
